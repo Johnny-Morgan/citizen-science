@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Memory Blocks! A memory game for all ages" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Citizen Science</title>
+</head>
+
+<body>
+    <div class="container col-8 mt-5 mb-5">
+        <h2>Let's get to know your farm</h2>
+
+        <form id="form" method="POST">
+          <p class="text-left mb-2">Farm Animal Type</p>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <select id="dropdown1" name="site" class="form-control">
+                <option disabled value selected>Animal List</option>
+                <option value="cow">Cow</option>
+                <option value="sheep">Sheep</option>
+                <option value="pig">Pig</option>
+              </select>
+            </div>
+            <div class="form-group col-md-6">
+              <input class="form-control" type="number" id="number1" name="number" min="1" max="" placeholder="QTY">
+            </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <select id="dropdown3" name="site" class="form-control">
+                  <option disabled value selected>Animal List</option>
+                  <option value="cow">Cow</option>
+                  <option value="sheep">Sheep</option>
+                  <option value="pig">Pig</option>
+                </select>
+              </div>
+              <div class="form-group col-md-6">
+                <input class="form-control" type="number" id="number2" name="number" min="1" max="" placeholder="QTY">
+              </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <select id="dropdown5" name="site" class="form-control">
+                    <option disabled value selected>Animal List</option>
+                    <option value="cow">Cow</option>
+                    <option value="sheep">Sheep</option>
+                    <option value="pig">Pig</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-6">
+                  <input class="form-control" type="number" id="number3" name="number" min="1" max="" placeholder="QTY">
+                </div>
+                </div>
+
+                <p class="text-left mb-2">Equipment</p>
+                <div class="form-row">
+                  <div class="form-group col-md-5">
+                    <select id="dropdown7" name="site" class="form-control">
+                      <option disabled value selected>Equipment List</option>
+                      <option value="tractor">Tractor</option>
+                      <option value="backhoe">Backhoe</option>
+                      <option value="atv">ATV</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-5">
+                    <select id="dropdown8" name="site" class="form-control">
+                      <option disabled value selected>Fuel Type</option>
+                      <option value="diesel">Diesel</option>
+                      <option value="kerosene">Kerosene</option>
+                      <option value="Gas oil">Gas Oil</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-2" >
+                    <input class="form-control" type="number" id="number4" name="number" min="1" placeholder="L/year">
+                  </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-5">
+                      <select id="dropdown9" name="site" class="form-control">
+                        <option disabled value selected>Equipment List</option>
+                        <option value="tractor">Tractor</option>
+                        <option value="backhoe">Backhoe</option>
+                        <option value="atv">ATV</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-5">
+                      <select id="dropdown10" name="site" class="form-control">
+                        <option disabled value selected>Fuel Type</option>
+                        <option value="diesel">Diesel</option>
+                        <option value="kerosene">Kerosene</option>
+                        <option value="Gas oil">Gas Oil</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-2" >
+                      <input class="form-control" type="number" id="number5" name="number" min="1" placeholder="L/year">
+                    </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="form-group col-md-5">
+                        <select id="dropdown11" name="site" class="form-control">
+                          <option disabled value selected>Equipment List</option>
+                          <option value="tractor">Tractor</option>
+                          <option value="backhoe">Backhoe</option>
+                          <option value="atv">ATV</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-5">
+                        <select id="dropdown12" name="site" class="form-control">
+                          <option disabled value selected>Fuel Type</option>
+                          <option value="diesel">Diesel</option>
+                          <option value="kerosene">Kerosene</option>
+                          <option value="Gas oil">Gas Oil</option>
+                        </select>
+                      </div>
+                      <div class="form-group col-md-2" >
+                        <input class="form-control" type="number" id="number6" name="number" min="1" placeholder="L/year">
+                      </div>
+                      </div>
+                      <p class="text-left mb-2">Vegetation</p>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <select id="dropdown13" name="site" class="form-control">
+                            <option disabled value selected>Tree Type List</option>
+                            <option value="oak">Oak</option>
+                            <option value="birch">Birch</option>
+                            <option value="hazel">Hazel</option>
+                          </select>
+                        </div>
+                        <div class="form-group col-md-3">
+                          <input class="form-control" type="number" id="number7" name="number" min="1" max="" placeholder="AGE" >
+                        </div>
+                        <div class="form-group col-md-3">
+                          <input class="form-control" type="number" id="number8" name="number" min="1" max="" placeholder="QTY" >
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <select id="dropdown14" name="site" class="form-control">
+                            <option disabled value selected>Tree Type List</option>
+                            <option value="oak">Oak</option>
+                            <option value="birch">Birch</option>
+                            <option value="hazel">Hazel</option>
+                          </select>
+                        </div>
+                        <div class="form-group col-md-3">
+                          <input class="form-control" type="number" id="number9" name="number" min="1" max="" placeholder="AGE" >
+                        </div>
+                        <div class="form-group col-md-3">
+                          <input class="form-control" type="number" id="number10" name="number" min="1" max="" placeholder="QTY" >
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <select id="dropdown15" name="site" class="form-control">
+                            <option disabled value selected>Tree Type List</option>
+                            <option value="oak">Oak</option>
+                            <option value="birch">Birch</option>
+                            <option value="hazel">Hazel</option>
+                          </select>
+                        </div>
+                        <div class="form-group col-md-3">
+                          <input class="form-control" type="number" id="number11" name="number" min="1" max="" placeholder="AGE" >
+                        </div>
+                        <div class="form-group col-md-3">
+                          <input class="form-control" type="number" id="number12" name="number" min="1" max="" placeholder="QTY" >
+                        </div>
+                      </div>
+
+                  <p class="text-left mb-2">Other</p>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <select id="dropdown16" name="site" class="form-control">
+                        <option disabled value selected>Fertilizer Type</option>
+                        <option value="nit">Nitrogen</option>
+                        <option value="phos">Phosphorous</option>
+                        <option value="pot">Potassium</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <input class="form-control" type="number" id="number13" name="number" min="1" max="" placeholder="kg/month" >
+                    </div>
+                  </div>
+
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <select id="dropdown17" name="site" class="form-control">
+                        <option disabled value selected>Energy Usage</option>
+                        <option value="gas">Gas</option>
+                        <option value="electricity">Electricity</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <input class="form-control" type="number" id="number14" name="number" min="1" max="" placeholder="kWh/month" >
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <select id="dropdown18" name="site" class="form-control">
+                        <option disabled value selected>Energy Usage</option>
+                        <option value="gas">Gas</option>
+                        <option value="electricity">Electricity</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <input class="form-control" type="number" id="number15" name="number" min="1" max="" placeholder="kWh/month" >
+                    </div>
+                  </div>
+                  <div>
+                    <a href="dashboard.html" type="submit" onClick="getData()" class="btn btn-dark col-md-6">Submit</a>
+                  </div> 
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

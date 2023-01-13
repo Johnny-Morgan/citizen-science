@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Memory Blocks! A memory game for all ages" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Citizen Science</title>
+</head>
+
+<body>
+    <!-- <div id="animalEmissions"></div>
+    <div id="machineEmissions"></div> -->
+
+    <div class="container mt-5 mb-5">
+      <h2>Your Emissions Dashboard</h2>
+        <div class="row">
+    <div class="card mr-3 mt-3" style="width: 18rem;">
+        <img class="card-img-top" src="images/cow.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Animal Emissions</h5>
+          <div id="animalEmissions" class="text-danger font-weight-bold"></div>
+          <p>Tonnes CO2e/year</p>
+        </div>
+      </div>
+      <div class="card mr-3 mt-3" style="width: 18rem;">
+        <img class="card-img-top" src="images/tractor.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Machine Emissions</h5>
+          <div id="machineEmissions" class="text-danger font-weight-bold"></div>
+          <p>Tonnes CO2e/year</p>
+        </div>
+      </div>
+      <div class="card mr-3 mt-3" style="width: 18rem;">
+        <img class="card-img-top" src="images/gas-electric.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Gas & Electricity</h5>
+          <div id="gasAndElec" class="text-danger font-weight-bold"></div>
+          <p>Tonnes CO2e/year</p>
+        </div>
+      </div>
+      <div class="card mr-3 mt-3" style="width: 18rem;">
+        <img class="card-img-top" src="images/trees.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Offsets</h5>
+          <div id="treesOffset" class="text-success font-weight-bold"></div>
+          <p>Tonnes CO2e/year</p>
+        </div>
+      </div>
+      <div class="card mr-3 mt-3" style="width: 18rem;">
+        <img class="card-img-top" src="images/co2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Total Net Emissions</h5>
+          <div id="totalEmissions" class="text-danger font-weight-bold"></div>
+          <p>Tonnes CO2e/year</p>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <a href="http://127.0.0.1:5501/plan.html" class="btn btn-dark col-md-3" target="_blank">Reduction Plan</a>
+    </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>
